@@ -1,0 +1,34 @@
+{
+  "name": "git-tree",
+  "version": "1.0.0",
+  "description": "a command to deploy last modified files with structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "git-tree": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeryckho/git-tree.git"
+  },
+  "keywords": [
+    "git",
+    "tree",
+    "files"
+  ],
+  "author": "JC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeryckho/git-tree/issues"
+  },
+  "homepage": "https://github.com/jeryckho/git-tree#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "commander": "^2.11.0",
+    "del": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "simple-git": "^1.82.0"
+  }
+}
